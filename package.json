@@ -1,0 +1,25 @@
+{
+  "name": "alt",
+  "displayName": "analat",
+  "description": "Analat Programming Language Support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "alt",
+      "aliases": ["Analat", "alt"],
+      "extensions": [".alt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "alt",
+      "scopeName": "source.analat",
+      "path": "./syntaxes/alt.tmLanguage.json"
+    }]
+  }
+}
